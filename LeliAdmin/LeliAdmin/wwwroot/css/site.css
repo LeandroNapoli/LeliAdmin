@@ -20,3 +20,7 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.left-nav-bar {
+    width: 5rem;
+}
