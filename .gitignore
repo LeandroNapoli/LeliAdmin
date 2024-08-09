@@ -401,3 +401,12 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+**/LeliAdmin/wwwroot/Script/**/*
+**/LeliAdmin/wwwroot/Content/css/*
+**/LeliAdmin/wwwroot/Content/css/fonts/*
+**/LeliAdmin/wwwroot/Content/css/themes/*
+**/LeliAdmin/wwwroot/Content/colors/blue.*
+**/LeliAdmin/Content/css/themes
+**/LeliAdmin/Content/main.css
+**/LeliAdmin/Content/main.min.css
