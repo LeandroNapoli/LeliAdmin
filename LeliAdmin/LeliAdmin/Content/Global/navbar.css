@@ -1,3 +1,28 @@
-﻿.left-nav-bar {
-    width: 4.5rem;
+﻿.left-sidebar {
+    position: absolute;
+    width: 5%;
+    height: 100%;
+    top: 0px;
+    z-index: 20;
+    padding-top: 70px;
+    background: #fff;
+    -webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+}
+
+.fix-sidebar .left-sidebar {
+    position: fixed;
+}
+
+.sidebar-nav {
+    background: #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #0d6efd;
+}
+
+nav > ul > li > a {
+    border-bottom: 1px solid #dee2e6 !important;
 }

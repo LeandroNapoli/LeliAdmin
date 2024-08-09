@@ -10,21 +10,16 @@
     <link href="~/css/navbar.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-<body>
-    <aside class="d-flex flex-column flex-shrink-0 bg-light left-nav-bar">
-        <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
-            <li class="nav-item">
-                <a class="nav-link py-3 border-bottom bi-house-door" aria-current="page" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home" asp-area="" asp-page="/Index"></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark bi-file-lock" tolltip="Privacy" asp-area="" asp-page="/Privacy"></a>
-            </li>
-        </ul>
+<body class="fix-sidebar">
+    <aside class="left-sidebar">
+        <partial name="~/Pages/Shared/_PartialMenu.cshtml" />
     </aside>
     <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+        <div class="row">
+            <div class="col-md-12">
+                @RenderBody()
+            </div>
+        </div>
     </div>
 
     <footer class="border-top footer text-muted">
