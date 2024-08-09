@@ -1,0 +1,9 @@
+[
+  {
+    "outputFileName": "wwwroot/Content/css/Global.css",
+    "inputFiles": [
+      "Content/Global/navbar.css",
+      "Content/Global/site.css"
+    ]
+  }
+]
