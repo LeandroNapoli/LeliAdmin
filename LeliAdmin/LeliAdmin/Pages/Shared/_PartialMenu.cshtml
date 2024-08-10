@@ -1,10 +1,11 @@
-﻿<nav class="sidebar-nav">
+﻿@using LeliAdmin.Infra.Contants
+<nav class="sidebar-nav">
     <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
         <li class="nav-item">
-            <a class="nav-pills nav-link bi-house-door" aria-current="page" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home" asp-area="" asp-page="/Index"></a>
+            <a id="@Menus.Home" class="nav-pills nav-link bi-house-door" aria-current="page" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home" asp-area="" asp-page="/Index"></a>
         </li>
         <li class="nav-item">
-            <a class="nav-pills nav-link bi-file-lock" tolltip="Privacy" asp-area="" asp-page="/Privacy"></a>
+            <a id="@Menus.Privacy" class="nav-pills nav-link bi-file-lock" tolltip="Privacy" asp-area="" asp-page="/Privacy"></a>
         </li>
     </ul>
 </nav>

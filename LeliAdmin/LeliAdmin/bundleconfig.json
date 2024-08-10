@@ -5,5 +5,12 @@
       "Content/Global/navbar.css",
       "Content/Global/site.css"
     ]
+  },
+  {
+    "outputFileName": "wwwroot/Script/Global/jsGeral.js",
+    "inputFiles": [
+      "Script/Global/navbar.js",
+      "Script/Global/site.js"
+    ]
   }
 ]

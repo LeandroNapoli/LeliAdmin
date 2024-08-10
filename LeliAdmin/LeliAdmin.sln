@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeliAdmin", "LeliAdmin\LeliAdmin.csproj", "{70FB57AD-E523-4C43-8B68-AA0D633EDCD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeliAdmin", "LeliAdmin\LeliAdmin.csproj", "{70FB57AD-E523-4C43-8B68-AA0D633EDCD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeliAdmin.Infra", "LeliAdmin.Infra\LeliAdmin.Infra.csproj", "{08022147-DB3E-43D1-AC3C-8A66D4637BEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{70FB57AD-E523-4C43-8B68-AA0D633EDCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70FB57AD-E523-4C43-8B68-AA0D633EDCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70FB57AD-E523-4C43-8B68-AA0D633EDCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08022147-DB3E-43D1-AC3C-8A66D4637BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08022147-DB3E-43D1-AC3C-8A66D4637BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08022147-DB3E-43D1-AC3C-8A66D4637BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08022147-DB3E-43D1-AC3C-8A66D4637BEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
