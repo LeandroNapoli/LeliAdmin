@@ -14,19 +14,21 @@
     <aside class="left-sidebar">
         <partial name="~/Pages/Shared/_PartialMenu.cshtml" />
     </aside>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                @RenderBody()
+    <div class="page-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    @RenderBody()
+                </div>
             </div>
         </div>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2024 - LeliAdmin - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            </div>
+        </footer>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - LeliAdmin - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
