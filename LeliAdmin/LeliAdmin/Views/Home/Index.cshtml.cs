@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace LeliAdmin.Pages
+namespace LeliAdmin.Views.Home
 {
     public class IndexModel : PageModel
     {

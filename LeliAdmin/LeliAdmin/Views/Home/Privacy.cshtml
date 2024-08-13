@@ -1,16 +1,11 @@
 ﻿@page
 @model PrivacyModel
 @{
-    ViewData["Title"] = "Privacy Policy";
+    ViewBag.Title = "Privacy Policy";
     ViewBag.Menu = ResourcesMenus.Privacy;
 }
-<h1>@ViewData["Title"]</h1>
+<h1>@ViewBag.Title</h1>
 <div class="row">
     <p>Use this page to detail your site's privacy policy.</p>
 
 </div>
-
-<form asp-action="">
-
-</form>
-<fo

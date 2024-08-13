@@ -14,7 +14,7 @@ namespace LeliAdmin.Controllers
         public IActionResult Login(LoginViewModel login)
         {
             var alo = login;
-            return View("Shared/Index");
+            return RedirectToAction("Index","Home");
         }
     }
 }
