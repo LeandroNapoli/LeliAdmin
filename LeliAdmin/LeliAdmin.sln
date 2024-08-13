@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeliAdmin", "LeliAdmin\LeliAdmin.csproj", "{70FB57AD-E523-4C43-8B68-AA0D633EDCD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeliAdmin.Infra", "LeliAdmin.Infra\LeliAdmin.Infra.csproj", "{08022147-DB3E-43D1-AC3C-8A66D4637BEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeliAdmin.Infra", "LeliAdmin.Infra\LeliAdmin.Infra.csproj", "{08022147-DB3E-43D1-AC3C-8A66D4637BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeliAdmin.Model", "LeliAdmin.Model\LeliAdmin.Model.csproj", "{AD54EE4C-F0B8-4B3D-87AF-8D3D0DDE4C10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{08022147-DB3E-43D1-AC3C-8A66D4637BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08022147-DB3E-43D1-AC3C-8A66D4637BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08022147-DB3E-43D1-AC3C-8A66D4637BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD54EE4C-F0B8-4B3D-87AF-8D3D0DDE4C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD54EE4C-F0B8-4B3D-87AF-8D3D0DDE4C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD54EE4C-F0B8-4B3D-87AF-8D3D0DDE4C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD54EE4C-F0B8-4B3D-87AF-8D3D0DDE4C10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

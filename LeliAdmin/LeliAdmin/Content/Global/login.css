@@ -1,0 +1,26 @@
+﻿
+.box-login {
+    border-radius: 10px;
+    background-color: #00ffff1f;
+}
+.login {
+    display: flex;
+    min-height: 100vh;
+}
+
+.alignment {
+    max-width: 320px;
+    width: 100%;
+    padding: 24px;
+    max-height: 100vh;
+}
+
+.login-form {
+    flex: 50%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

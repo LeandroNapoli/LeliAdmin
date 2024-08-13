@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/LeliAdmin.styles.css" asp-append-version="true" />
+    <link href="~/Content/css/Global.min.css" rel="stylesheet" asp-append-version="true" />
+</head>
+<body>
+    <div>
+        <main class="login">
+            <div class="login-form">
+                <div class="alignment">
+                    @RenderBody()
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

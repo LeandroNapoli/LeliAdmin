@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LeliAdmin.Infra\LeliAdmin.Infra.csproj" />
+    <ProjectReference Include="..\LeliAdmin.Model\LeliAdmin.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
