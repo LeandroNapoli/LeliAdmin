@@ -77,5 +77,14 @@ namespace LeliAdmin {
                 return ResourceManager.GetString("Privacy", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to storage_menu.
+        /// </summary>
+        internal static string Storage {
+            get {
+                return ResourceManager.GetString("Storage", resourceCulture);
+            }
+        }
     }
 }
