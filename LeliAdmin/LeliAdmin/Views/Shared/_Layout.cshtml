@@ -8,8 +8,15 @@
     <link rel="stylesheet" href="~/LeliAdmin.styles.css" asp-append-version="true" />
     <link href="~/Content/css/Global.min.css" rel="stylesheet" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.datatables.net/v/bs5/dt-2.1.4/datatables.min.css" />
+    @await RenderSectionAsync("styles", required: false)
 </head>
 <body class="fix-sidebar">
+    <header>
+        <nav class="navbar navbar-nav">
+            <h1>TESTE AVBAT</h1>
+        </nav>
+    </header>
     <input type="hidden" id="codigoMenu" value="@((object)ViewBag.Menu)" />
     <aside class="left-sidebar">
         <partial name="~/Views/Shared/_PartialMenu.cshtml" />
@@ -33,6 +40,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/Script/Global/jsGeral.min.js" asp-append-version="true"></script>
+    <script src="https://cdn.datatables.net/v/bs5/dt-2.1.4/datatables.min.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

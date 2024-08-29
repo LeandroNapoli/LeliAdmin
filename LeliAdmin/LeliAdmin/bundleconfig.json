@@ -13,5 +13,11 @@
       "Script/Global/navbar.js",
       "Script/Global/site.js"
     ]
+  }, 
+  {
+    "outputFileName": "wwwroot/Script/Global/storage.min.js",
+    "inputFiles": [
+      "Script/Global/storage.js"
+    ]
   }
 ]
