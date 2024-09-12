@@ -9,8 +9,8 @@
         <div class="row g-0">
             <div class="col-md-6 d-flex p-md-5">
                 <div class="card-body">
-                    <div class="text-center">
-                        <img src="Images/Logo/leliaromas.png" alt="logo" />
+                    <div class="text-center card-img">
+                        <img src="~/images/logo/leliaromas.png" />
                     </div>
                     <form asp-action="Login" asp-controller="Login" method="post" role="form">
                         <div class="form-group">
@@ -25,15 +25,16 @@
                             <label class="form-label">Senha</label>
                             <input asp-for="Password" class="form-control password" type="password" />
                         </div>
-                        <div class="form-group">
-                            <button class="btn btn-primary" type="submit">Entrar</button>
+                        <div class="form-group pt-1">
+                            <button class="btn gradient-custom" type="submit">Entrar</button>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="col-md-6 d-flex">
-                <div>
-                    <p>COLOCANDDO UM TEXTO BEM DAORA PRA GENTE VER COMO ISSO AUI VAIFICAR COM ESSE VBOTOSOPOASDONGHONTOPIKW</p>
+            <div class="col-md-6 d-flex align-items-center gradient-custom">
+                <div class="text-center mx-md-4">
+                    <h4>Seja bem vindo ao nosso sistema!</h4>
+                    <p>Esperamos que o dia de hoje seja bem produtivo.</p>
                 </div>
             </div>
         </div>

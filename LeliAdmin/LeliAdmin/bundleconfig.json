@@ -19,11 +19,5 @@
     "inputFiles": [
       "Script/Global/storage.js"
     ]
-  },
-  {
-    "outputFileName": "wwwroot/Images/Logo/leliaromas.png",
-    "inputFiles": [
-      "LeliAdmin.Infra/Images/Logo/leliaromas.png"
-    ]
   }
 ]

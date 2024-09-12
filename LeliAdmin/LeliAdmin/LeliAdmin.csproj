@@ -23,6 +23,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Images\Logo\leliaromas.png" />
+    <None Include="wwwroot\Images\Logo\patinho.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\LeliAdmin.Infra\LeliAdmin.Infra.csproj" />
     <ProjectReference Include="..\LeliAdmin.Model\LeliAdmin.Model.csproj" />
   </ItemGroup>
