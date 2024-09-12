@@ -41,7 +41,7 @@ bld/
 # **/wwwroot/Script
 # **/wwwroot/Content
 #wwwroot/**
-#wwwroot/
+# **/wwwroot/Images
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
