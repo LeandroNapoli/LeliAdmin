@@ -404,6 +404,7 @@ FodyWeavers.xsd
 *.sln.iml
 
 **/LeliAdmin/wwwroot/Script/**/*
+**/LeliAdmin/wwwroot/Images/**/*
 **/LeliAdmin/wwwroot/Content/css/*
 **/LeliAdmin/wwwroot/Content/css/fonts/*
 **/LeliAdmin/wwwroot/Content/css/themes/*
